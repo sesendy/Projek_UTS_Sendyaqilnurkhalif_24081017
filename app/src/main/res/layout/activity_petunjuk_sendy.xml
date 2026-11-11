@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="#EAF2F8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PETUNJUK PENGGUNAAN"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#17365D"
+        android:gravity="center"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Jalankan aplikasi.\n\n2. Pilih menu Gaji Pegawai untuk menjalankan simulasi.\n\n3. Masukkan Nomor Induk Karyawan dan Nama Karyawan.\n\n4. Masukkan Gaji Pokok dan Tunjangan Jabatan.\n\n5. Masukkan Jumlah Hari Kerja.\n\n6. Tekan tombol HITUNG untuk melihat hasil perhitungan gaji.\n\n7. Pilih tombol KEMBALI untuk kembali ke menu utama.\n\n8. Pilih EXIT untuk keluar dari aplikasi."
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:lineSpacingExtra="5dp"/>
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

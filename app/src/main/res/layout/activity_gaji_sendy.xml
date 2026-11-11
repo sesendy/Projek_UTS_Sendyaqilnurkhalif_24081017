@@ -1,0 +1,170 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF2F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GAJI KARYAWAN"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#17365D"
+            android:gravity="center"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Induk Karyawan"/>
+
+        <EditText
+            android:id="@+id/edtNIK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan NIK"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Karyawan"/>
+
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nama"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji Pokok"/>
+
+        <EditText
+            android:id="@+id/edtGajiPokok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan gaji pokok"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tunjangan Jabatan"/>
+
+        <EditText
+            android:id="@+id/edtTunjanganJabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan tunjangan jabatan"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Hari Kerja"/>
+
+        <EditText
+            android:id="@+id/edtHariKerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan jumlah hari"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HITUNG"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HASIL PERHITUNGAN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#17365D"
+            android:gravity="center"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tunjangan Makan"/>
+
+        <TextView
+            android:id="@+id/txtMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp0"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tunjangan Transportasi"/>
+
+        <TextView
+            android:id="@+id/txtTransport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp0"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji Kotor"/>
+
+        <TextView
+            android:id="@+id/txtGajiKotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp0"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pajak 10%"/>
+
+        <TextView
+            android:id="@+id/txtPajak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp0"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji Bersih"/>
+
+        <TextView
+            android:id="@+id/txtGajiBersih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp0"
+            android:textSize="20sp"
+            android:textColor="#008000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KEMBALI"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+</ScrollView>
